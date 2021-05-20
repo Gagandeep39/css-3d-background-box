@@ -49,10 +49,26 @@ body {
   width: 500px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  transition: 0.4s ease;
+}
+
+.boxes.big {
+  width: 600px;
+  height: 600px;
+}
+
+.boxes.big .box {
+  transform: rotateZ(360deg);
 }
 
 .box {
-  background: yellow;
+  background-image: url('https://media1.giphy.com/media/xRZ6X1Y3GnobpKD151/giphy.gif?cid=ecf05e473jl8jk6h85h0kw1pc7cs7ciyil2dgd8oj18p6u0k&rid=giphy.gif&ct=v');
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
   height: 125px;
   width: 125px;
+
+  position: relative;
+  transition: 0.4s ease;
 }
